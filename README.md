@@ -146,7 +146,7 @@ function multiply(a, b, c, d) {
 ```
 
 ```js
-"function multiply(x, y, z) {
+function multiply(x, y, z) {
     let product = x * y * z;
 
     return product;
