@@ -126,8 +126,13 @@ A built in function already designed to return a value is the prompt function. T
 Question 7
 
 ```js
-let product = multiply(5, 4, 5);" Three functions that declare and implement this include :
-"function multiply(a, b, c, d) {
+let product = multiply(5, 4, 5);
+```
+
+Three functions that declare and implement this include :
+
+```js
+function multiply(a, b, c, d) {
     if (a !== undefined && b !== undefined && c !== undefined && d !== undefined) {
         return a * b * c * d;
     else if (a !== undefined && b !== undefined && c !== undefined) {
@@ -141,7 +146,7 @@ let product = multiply(5, 4, 5);" Three functions that declare and implement thi
 ```
 
 ```js
-"function multiply(x, y, z) {
+function multiply(x, y, z) {
     let product = x * y * z;
 
     return product;
